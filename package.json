@@ -1,19 +1,31 @@
 {
-  "name": "hng13-stage0-backend-task",
+  "name": "mydynamicprofileendpoint",
   "version": "1.0.0",
+  "description": "Stage 0: Dynamic Profile Endpoint — returns profile info and a random cat fact via RESTful API",
   "main": "dynamicProfileEndpoint.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dynamicProfileEndpoint.js",
+    "dev": "nodemon dynamicProfileEndpoint.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "express",
+    "api",
+    "nodejs",
+    "backend",
+    "cat-facts",
+    "profile",
+    "railway"
+  ],
+  "author": "Reigner Chinedu",
+  "license": "MIT",
   "dependencies": {
     "axios": "^1.12.2",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
